@@ -71,6 +71,7 @@ h2 {
 @media screen and (max-width: 400px) {
   body {
     margin-top: 150px;
+    margin-bottom: 150px;
   }
   .invite {
     width: 80vw;
