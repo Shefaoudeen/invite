@@ -28,7 +28,9 @@ body {
   box-shadow: 10px 10px 50px gray;
   background-color: white;
 }
-
+h1 {
+  text-shadow: 5px 0 20px black;
+}
 img {
   height: 100px;
   width: 100px;
@@ -67,6 +69,9 @@ h2 {
 }
 
 @media screen and (max-width: 400px) {
+  body {
+    margin-top: 150px;
+  }
   .invite {
     width: 80vw;
   }
@@ -82,5 +87,8 @@ h2 {
 
   .aso-sponsor {
     width: 70vw;
+  }
+  img {
+    box-shadow: 5px 5px 40px gray;
   }
 }
